@@ -1,0 +1,451 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    background-color: white;
+    color: #000953;
+    padding-top: 75px;
+    font-family: "Noto Sans", serif;
+}
+
+body a {
+    color: #000953;
+}
+
+body a:hover {
+    color: #000953;
+}
+
+hl {
+    color: #000953;
+}
+
+input {
+    border-radius: 5px;
+    height: 30px;
+}
+
+input:read-only {
+	background-color: #d3d3d3 !important;
+}
+
+input:-moz-read-only {
+	background-color: #d3d3d3 !important;
+}
+
+textarea {
+    border-radius: 5px;
+	resize:none;
+}
+#drlist {
+	width: 200px;	
+}
+
+hr {
+    margin: 1px 0 1px 0;
+    color: #407CCA;
+    background-color: #407CCA;
+    height: 1px;
+    border: 2px solid #000953;
+    border-radius: 4px;
+}
+
+.wrap {
+    min-height: 100%;
+    background-color: green;
+}
+
+.wrapinner {
+    position: absolute;
+    min-height: 100%;
+    
+    background-color: red;
+    width: 90%;
+}
+tr:hover {
+    background-color: white;
+}
+
+.navbar {
+    background-color: white !important;
+    color: #000953 !important;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.navbar-brand {
+    color: #000953 !important;
+    padding: 5px !important;
+    height: 80px;
+}
+
+.navbar .navbar-nav {
+    background-color: white !important;
+    color: #000953 !important;
+    padding-top: 20px;
+    padding-left: 15px;
+}
+
+.navbar-nav li a {
+    background-color: white !important;
+    color: #000953 !important;
+}
+
+.navbar-nav li a:hover {
+    color: #407CCA !important;
+}
+
+.bio {
+    text-align: left;
+    color: #407CCA;
+    width: 100%;
+    padding: 4px;
+    vertical-align: middle;
+    font-family: Noto Sans; 
+    border: 2px solid #000953;
+    border-radius: 4px;
+    height: 250px;
+    background: #E0E0E0;
+}
+
+.past {
+    text-align: left;
+    color: #407CCA;
+    width: 100%;
+    padding: 4px;
+    vertical-align: middle;
+    font-family: Noto Sans; 
+    border: 2px solid #000953;
+    border-radius: 4px;
+    height: 310px;
+    background: #E0E0E0;
+	overflow-y: scroll;
+}
+
+.bio button {
+    color: #407CCA;
+}
+
+.search {
+	padding-top: 8px;
+}
+
+.nursepatientlist {
+    text-align: left;
+    color: #407CCA;
+    width: 100%;
+    padding: 4px;
+    vertical-align: middle;
+    font-family: Noto Sans; 
+    border: 2px solid #000953;
+    border-radius: 4px;
+    height: 500px;
+    background: #E0E0E0;
+	cursor: pointer;
+	overflow-y: scroll;
+}
+
+.nursecaselist {
+    text-align: left;
+    color: #407CCA;
+    width: 100%;
+    padding: 4px;
+    vertical-align: middle;
+    font-family: Noto Sans; 
+    border: 2px solid #000953;
+    border-radius: 4px;
+    height: 240px;
+    background: #E0E0E0;
+	cursor: pointer;
+	overflow-y: scroll;
+}
+
+.searchlist {
+    text-align: left;
+    color: #407CCA;
+    width: 100%;
+    padding: 4px;
+    vertical-align: middle;
+    font-family: Noto Sans; 
+    border: 2px solid #000953;
+    border-radius: 4px;
+    height: 600px;
+    background: #E0E0E0;
+	cursor: pointer;
+	overflow-y: scroll;
+}
+
+.visits {
+    text-align: left;
+    color: #407CCA;
+    width: 100%;
+    padding: 4px;
+    vertical-align: middle;
+    font-family: Noto Sans; 
+    border: 2px solid #000953;
+    border-radius: 4px;
+    height: 600px;
+    background: #E0E0E0;
+	overflow-y: scroll;
+}
+
+.caseoverview {
+    text-align: left;
+    color: #407CCA;
+    width: 100%;
+    padding: 4px;
+	line-height: 30px;
+    vertical-align: middle;
+    font-family: Noto Sans; 
+    border: 2px solid #000953;
+    border-radius: 4px;
+    height: 875px;
+    background: #E0E0E0;
+}
+
+.chartoverview {
+    text-align: left;
+    color: #407CCA;
+    width: 100%;
+    padding: 4px;
+	line-height: 30px;
+    vertical-align: middle;
+    font-family: Noto Sans; 
+    border: 2px solid #000953;
+    border-radius: 4px;
+    height: 1615px;
+    background: #E0E0E0;
+}
+
+.casecreate {
+    text-align: left;
+    color: #407CCA;
+    width: 100%;
+    padding: 4px;
+	line-height: 30px;
+    vertical-align: middle;
+    font-family: Noto Sans; 
+    border: 2px solid #000953;
+    border-radius: 4px;
+    height: 600px;
+    background: #E0E0E0;
+}
+
+.diagcreate {
+    text-align: left;
+    color: #407CCA;
+    width: 100%;
+    padding: 4px;
+	line-height: 30px;
+    vertical-align: middle;
+    font-family: Noto Sans; 
+    border: 2px solid #000953;
+    border-radius: 4px;
+    height: 760px;
+    background: #E0E0E0;
+}
+
+.coadmission {
+    text-align: left;
+    color: #407CCA;
+    width: 100%;
+    padding: 4px;
+    vertical-align: middle;
+    font-family: Noto Sans; 
+    border: 2px solid #000953;
+    border-radius: 4px;
+    height: 250px;
+    background: #E0E0E0;
+}
+
+.coprecase {
+    text-align: left;
+    color: #407CCA;
+    width: 100%;
+    padding: 4px;
+    vertical-align: middle;
+    font-family: Noto Sans; 
+    border: 2px solid #000953;
+    border-radius: 4px;
+    height: 250px;
+    background: #E0E0E0;
+	overflow-y: scroll;
+}
+
+.cocharts {
+    text-align: left;
+    color: #407CCA;
+    width: 100%;
+    padding: 4px;
+    vertical-align: middle;
+    font-family: Noto Sans; 
+    border: 2px solid #000953;
+    border-radius: 4px;
+    height: 500px;
+    background: #E0E0E0;
+}
+
+.codiag {
+    text-align: left;
+    color: #407CCA;
+    width: 100%;
+    padding: 4px;
+    vertical-align: middle;
+    font-family: Noto Sans; 
+    border: 2px solid #000953;
+    border-radius: 4px;
+    height: 275px;
+    background: #E0E0E0;
+}
+
+.colabs {
+    text-align: left;
+    color: #407CCA;
+    width: 100%;
+    padding: 4px;
+    vertical-align: middle;
+    font-family: Noto Sans; 
+    border: 2px solid #000953;
+    border-radius: 4px;
+    height: 300px;
+    background: #E0E0E0;
+}
+
+.copres {
+    text-align: left;
+    color: #407CCA;
+    width: 100%;
+    padding: 4px;
+    vertical-align: middle;
+    font-family: Noto Sans; 
+    border: 2px solid #000953;
+    border-radius: 4px;
+    height: 300px;
+    background: #E0E0E0;
+	overflow-y: scroll;
+}
+
+
+.casereports {
+    text-align: left;
+    color: #407CCA;
+    width: 100%;
+    padding: 4px;
+    vertical-align: middle;
+    font-family: Noto Sans; 
+    border: 2px solid #000953;
+    border-radius: 4px;
+    height: 200px;
+    background: #E0E0E0;
+}
+.visits a {
+    color: #000953;
+}
+
+.details {
+    text-align: left;
+    color: #000953;
+    width: 100%;
+    padding: 4px;
+    vertical-align: middle;
+    font-family: Noto Sans; 
+    border: 2px solid #000953;
+    border-radius: 4px;
+    height: 350px;
+    background: #E0E0E0;
+}
+
+@media screen and (max-width: 768px) {
+    body { padding-top: 350px; }
+    .footer {padding-top: 100px;}
+}
+
+
+.footer {
+    position: relative;
+    margin-top: -150px;
+    height: 150px;
+    clear:both;
+    padding-top:40px;
+    background-color: black;
+    border-top: 2px solid cyan;
+    color: cyan;
+    vertical-align: middle;
+} 
+
+.footer a {
+    color: cyan;
+}
+
+.footer a:hover {
+    color: white ;
+}
+
+.form-group input {
+    background-color: #d3d3d3 !important;
+    color: black;
+    display: inline;
+    width: 60%;
+}
+
+.featured {
+    color: cyan;
+    min-height: 700px;
+}
+
+
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: black;
+    color: cyan;
+    border: none;
+    height: 98px;
+    width: 100% !important;
+    padding-bottom: 8px;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 300px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-left: 2px solid cyan;
+    border-right: 2px solid cyan;
+    border-bottom: 2px solid cyan;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    height: 50px !important;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {color: white}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    color: white;
+} 
+
+
